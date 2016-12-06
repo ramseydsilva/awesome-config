@@ -9,6 +9,7 @@
 -- }}}
 
 -- {{{ Libraries
+require("debian.menu")
 awful = require("awful")
 awful.rules = require("awful.rules")
 awful.autofocus = require("awful.autofocus")
